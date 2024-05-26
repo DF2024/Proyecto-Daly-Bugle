@@ -97,6 +97,7 @@ img {
     box-shadow: 1px 5px 19px -6px rgba(0,0,0,0.77);
 }
 
+
 .header_title{
     font-family: var(--fuenteheading);
     font-size: 4.8rem;
@@ -110,8 +111,13 @@ img {
     font-family: var(--fuenteheading);
 }
 
-.header__btn button{
+.header__btn a{
     font-size: 1.8rem;
+}
+
+.header__logo__img{
+    width: 45rem;
+    padding: 1rem;
 }
 
 .btn-f{
@@ -203,6 +209,10 @@ img {
 .carousel{
     width: 100%;
     padding-top: 3rem;
+}
+
+.carousel-caption h2{
+    font-size: 8rem;
 }
 
 .t{

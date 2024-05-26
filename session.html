@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/session.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Registro</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="nav__logo">
+                <img class="nav__logo__img" src="img/BugleLogo.webp" alt="logo">
+            </a>
+        </nav>
+    </header> 
+        
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Inciar Sesión</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Registrarse</button>
+            </li>
+        </ul>
+        <div class="tab-content cen" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="formulario">
+
+<!-- 
+                    INICIO DE SESIÓN -->
+
+
+                    <form class="form" id="formIni">
+                        <div class="col-md-4 position-relative">
+                            <input type="email" class="form-control e" placeholder="Correo" id="validationTooltip01" required >
+                            <div class="valid-tooltip">
+                            Looks good!
+                            </div>
+                        </div>
+                
+
+            
+                        
+                        <div class="c">
+                            <div class="submit">
+                                <div class="submit__btn">
+                                    <input type="submit" value="Ingresar" id="btnIni">
+                                </div>
+                                <div class="submit__res">
+                                    <p>
+                                        Responsable: editorial de la web y UNIDAD EDITORIAL, S.A., Finalidades: Gestión de su registro, análisis de perfiles y el envío de comunicaciones comerciales, personalizadas a partir de dicho análisis, del grupo Unidad Editorial o de terceros. Derechos: Tiene derecho a acceder, rectificar y suprimir los datos, así como a revocar su consentimiento y otros derechos, como se explica en la información adicional y detallada que puede consultar en la Política de Privacidad. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                
+                <div class="formulario">
+
+
+
+                <!-- REGISTRO DE USUARIO -->
+
+
+                    <form class="form" id="formRegistro">
+                        <div class="col-md-4 position-relative">
+                            <input type="email" class="form-control e" placeholder="Correo" id="email" required >
+                            <div class="valid-tooltip">
+                            Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 position-relative">
+                            <input type="password" class="form-control e" placeholder="Contraseña" id="pass"  required>
+                            <div class="valid-tooltip">
+                            Looks good!
+                            </div>
+                        </div>
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">¿Eres mayor de 16 años?</label>
+                        </div>
+
+                        <div class="form__info">
+                            <p>
+                                Queremos remitirte información sobre eventos, promociones, sorteos y otras comunicaciones comerciales personalizadas de acuerdo con tu perfil y preferencias, sobre productos, servicios y contenidos del Grupo Unidad Editorial y/o de terceros de distintos sectores, por medios electrónicos o no, tal y como se detalla en la Política de Privacidad. Por favor, dinos si estás de acuerdo.
+                            </p>
+                            <div class="check">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                    Si
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                    No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c">
+                            <div class="submit">
+                                <div class="submit__btn">
+                                    <p>Al registrarte declaras aceptar los términos y condiciones de uso, así como la Política de Privacidad y la Política de Cookies.</p>
+                                    <input type="submit" value="Ingresar" id="btnRegi">
+                                </div>
+                                <div class="submit__res">
+                                    <p>
+                                        Responsable: editorial de la web y UNIDAD EDITORIAL, S.A., Finalidades: Gestión de su registro, análisis de perfiles y el envío de comunicaciones comerciales, personalizadas a partir de dicho análisis, del grupo Unidad Editorial o de terceros. Derechos: Tiene derecho a acceder, rectificar y suprimir los datos, así como a revocar su consentimiento y otros derechos, como se explica en la información adicional y detallada que puede consultar en la Política de Privacidad. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+                        
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/regis.js"></script>
+</body>
+</html>
